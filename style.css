@@ -1,0 +1,13 @@
+.score {
+    font-weight: 900;
+}
+
+.health {
+    font-weight: 900;
+}
+
+.gameArea {
+    width: 500px;
+    height: 500px;
+    border-style: inset;
+}
