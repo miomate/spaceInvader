@@ -7,17 +7,15 @@
 }
 
 .gameArea {
-    display : none; 
     width: 300px;
     height: 300px;
     border-style: inset;
- /*all in one line*/
-    flex-wrap: wrap; /*after reach width, go next line*/
+    display: flex; /*all in one line*/
+    flex-wrap: wrap; /*after reach widht, go next line*/
 }
 
 /*the game field, 255 squares*/
 .gameArea div {
-    
     width: 20px;
     height: 20px;
     /* background-color: rgb(20, 150, 100); */
@@ -41,25 +39,3 @@
 .boom {
     background-color: orangered;
 }
-
-
-
-.splashScreen{
-    /*space invaders, start game button*/
-
-}
-
-.gameOver{
-     display : none; 
-    
-}
-
-.winScreen{
-    display : none; 
-    
-}
-
-
-
-
-
